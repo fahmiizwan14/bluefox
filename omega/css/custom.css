@@ -1,0 +1,60 @@
+	img {
+		max-width:100%
+	}
+	.center {
+		margin: auto;
+	}
+	.movers-row {
+	}
+	.movers-row div {
+		width: 33.3%;
+		float: left;
+	}
+	.movers-row div img {
+		float: right;
+	}
+	.row{
+		margin-left:0px !important;
+		margin-right:0px !important;
+	}
+	.row {
+	  display: flex;
+	}
+	.column {
+	  flex: 33.33%;
+	}
+	.timer {
+    max-width: 555px;
+    margin: -11px auto; 
+	background: #1234af;
+	}
+	.timermobile {
+    max-width: 376px;
+	background: #1234af;
+	padding-left: 30px;
+	}
+	#mycountdown div {
+    float: left;
+    background: #2e2e2e !important;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+	color:white;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    border-radius: 14px;
+	}
+	#mycountdownmobile div {
+    background: #2e2e2e;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 22px;
+    color: white;
+    margin: 0 5px;
+    display: inline-block;
+    position: relative;
+    border-radius: 14px;
+	}
