@@ -1,61 +1,70 @@
-	#container{
-	vertical-align: middle
-	}
-	.desktopOnly{
-		display:block;
-	}
-	.mobileOnly{
-		display:none;
-	}
-	img {
-		max-width:100%
-	}
-	.center {
-		margin: auto;
-	}
-	.movers-row div {
-		width: 33.3%;
+	/* Landscape */
+	@media screen and (orientation:landscape) and (min-width: 600px) {
+		#container{
+		vertical-align: middle;
+		width: 990px;
+		}
+		.desktopOnly{
+			display:block;
+		}
+		.mobileOnly{
+			display:none;
+		}
+		img {
+			max-width:100%
+		}
+		.center {
+			margin: auto;
+		}
+		.movers-row div {
+			width: 33.3%;
+			float: left;
+		}
+		.movers-row div img {
+			float: right;
+		}
+		.row{
+			margin-left:0px !important;
+			margin-right:0px !important;
+			display: flex;
+		}
+		.column {
+		  flex: 33.33%;
+		}
+		.timer {
+		max-width: 571px;
+		margin: 0px auto; 
+		background: #df008e;
+		}
+		#mycountdown div {
 		float: left;
+		background: #2e2e2e !important;
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+		font-size: 51px;
+		color:white;
+		margin: 24px 10px;
+		display: inline-block;
+		height: auto;
+		position: relative;
+		border-radius: 14px;
+		}
 	}
-	.movers-row div img {
-		float: right;
-	}
-	.row{
-		margin-left:0px !important;
-		margin-right:0px !important;
-		display: flex;
-	}
-	.column {
-	  flex: 33.33%;
-	}
-	.timer {
-    max-width: 571px;
-    margin: 0px auto; 
-	background: #df008e;
-	}
-	#mycountdown div {
-    float: left;
-    background: #2e2e2e !important;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 51px;
-	color:white;
-    margin: 24px 10px;
-    display: inline-block;
-    height: auto;
-    position: relative;
-    border-radius: 14px;
+
+	@media (min-width: 1200px){
+		.container {
+			width: 990px;
+		}
 	}
 	
-
 	@media only screen and (max-width: 600px) {
 		#mycountdownmobile div {
 		background: #2e2e2e;
 		text-align: center;
 		display: table-cell;
 		vertical-align: middle;
-		font-size: 20px;
+		font-size: 22px;
 		color: white;
 		margin: 0 5px;
 		display: inline-block;
